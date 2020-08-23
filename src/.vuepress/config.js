@@ -58,6 +58,7 @@ module.exports = {
     editLinks: true,
     editLinkText: '',
     lastUpdated: true,
+    logo: '/logo.svg',
     nav: [
       {
         text: 'Guide',

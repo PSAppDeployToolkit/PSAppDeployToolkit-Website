@@ -18,7 +18,7 @@ This example is provided as a script with the toolkit, in the “Examples” fol
 
 1.  Copy the application source files in to the “Files” directory, e.g.
     
-    ![](images/image20.png)
+    ![](./img/image20.png)
 
 2.  Customize the Deploy-Application.ps1 script using the example code below
 

@@ -11,42 +11,42 @@
 
 If the block execution option is enabled (see Show-InstallationWelcome function), the user will be prompted that they cannot launch the specified application(s) while the installation is in progress. The application will be unblocked again once the installation has completed.
 
-![](images/image10.png)
+![](./img/image10.png)
 
 ## Disk Space Requirements
 
 If the CheckDiskSpace parameter is used with the Show-InstallationWelcome function and the disk space requirements are not met, the following prompt will be displayed and the installation will not proceed.
 
-![](images/image11.png)
+![](./img/image11.png)
 
 ## Custom Installation Prompt
 
 A custom prompt with the toolkit branding can be used to display messages and interact with the user using the “Show-InstallationPrompt” function. The title and text is customizable and up to 3 customizable buttons can be included on the prompt as well as optional system icons, e.g.
 
-![](images/image12.png)
+![](./img/image12.png)
 
 Additionally, the prompt can be displayed asynchronously, e.g. to display a message at the end of the installation but allow the installation to return the exit code to the parent process without waiting for the user to respond to the message.
 
-![](images/image13.png)
+![](./img/image13.png)
 
 - [Installation Restart Prompt](installation-restart-prompt)
 ## Balloon tip notifications
 
 Balloon tip notifications are displayed in the system tray automatically at the beginning and end of the installation. These can be turned off in the XML configuration.
 
-![](images/image15.png)
+![](./img/image15.png)
 
-![](images/image16.png)
+![](./img/image16.png)
 
-![](images/image17.png)
+![](./img/image17.png)
 
 ## Custom Dialog box
 
 A generic dialog box to display custom messages to the user without the toolkit branding using the function “Show-DialogBox”. This can be customized with different system icons and buttons.
 
-![](images/image18.png)
+![](./img/image18.png)
 
-![](images/image19.png)
+![](./img/image19.png)
 
 ## Logging
 
