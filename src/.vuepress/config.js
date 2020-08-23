@@ -49,6 +49,7 @@ module.exports = {
       platform: 'github',
       owner: 'PSAppDeployToolkit',
       repo: 'PSAppDeployToolkit-Website',
+      admins: ['sintaxasn','seanlillis','luki1412','cybermoloch'],
       clientId: '4082fe8d699562c7efd3',
       clientSecret: '6e281b3d91266876e29e25ae792b118f23506124',
     },
