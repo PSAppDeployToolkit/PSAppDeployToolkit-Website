@@ -54,7 +54,7 @@ module.exports = {
     },
     repo: 'https://github.com/PSAppDeployToolkit/PSAppDeployToolkit',
     docsRepo: 'https://github.com/PSAppDeployToolkit/PSAppDeployToolkit-Website',
-    docsDir: '',
+    docsDir: 'src',
     editLinks: true,
     editLinkText: '',
     lastUpdated: true,
