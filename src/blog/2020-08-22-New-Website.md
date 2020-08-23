@@ -1,5 +1,5 @@
 ---
-title: New website, new logo; A new era for PSADT
+title: 'New website, new logo: A new era for PSADT'
 date: 2020-08-22
 author: CyberMoloch
 categories:
@@ -7,6 +7,7 @@ categories:
 tags:
  - website
 publish: true
+sidebarDepth: 1
 ---
 
 ## Behind the scenes
