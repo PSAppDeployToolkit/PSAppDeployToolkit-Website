@@ -13,7 +13,7 @@ features:
   details: Provides a set of functions to perform common deployment tasks, such as installing or uninstalling multiple applications, prompting users to close apps, setting registry keys, copying files, etc.
 - title: User Interface
   details: Provides user interaction through customizable user interface dialogs boxes, progress dialogs and balloon tip notifications.
-- title: Localizad
+- title: Localized
   details: The UI is localized in several languages and more can easily be added using the XML configuration file.
 - title: Integration
   details: Integrates well with System Center Configuration Manager(SCCM); provides installation and uninstallation deployment types with options on how to handle exit codes, such as supressing reboots or returning a fast retry code. The toolkit also supports logging in CMTrace-compatible format.
