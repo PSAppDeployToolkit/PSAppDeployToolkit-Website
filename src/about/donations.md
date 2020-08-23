@@ -1,4 +1,7 @@
-# Donate
+---
+title: Donations
+isShowComments: false
+---
 
 The PowerShell App Deployment Toolkit has been built over many years in the spare time of the developers and continues to be supported as such.
 

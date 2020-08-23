@@ -1,3 +1,8 @@
+---
+title: Toolkit Variables
+isShowComments: false
+---
+
 The toolkit has a number of internal variables which can be used in your script. Outlined below are each of them:
 
 | Variable                                 | Description                                                                                   |

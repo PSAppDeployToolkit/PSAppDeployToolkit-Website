@@ -1,8 +1,7 @@
 ---
-sidebar: auto
+title: Screenshots
+isShowComments: false
 ---
-# Screenshots
-
 ## User Interface
 
 ### Installation Progress
