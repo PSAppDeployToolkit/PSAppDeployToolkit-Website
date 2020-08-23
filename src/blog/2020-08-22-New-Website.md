@@ -7,7 +7,7 @@ categories:
 tags:
  - website
 publish: true
-sidebarDepth: 1
+sidebarDepth: 0
 ---
 
 ## Behind the scenes
