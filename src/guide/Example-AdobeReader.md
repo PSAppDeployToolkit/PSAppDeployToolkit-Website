@@ -1,5 +1,7 @@
-# Adobe Reader Example
-
+---
+title: Adobe Reader Example
+isShowComments: false
+---
 ### Building an Adobe Reader installation with the PowerShell App Deployment Toolkit
 
 In this example, we will build an Adobe Reader installation which provides the following benefits over using a standard MSI based SCCM deployment:

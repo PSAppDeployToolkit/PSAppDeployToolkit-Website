@@ -1,5 +1,7 @@
-# Office 2013 SP1 Example
-
+---
+title: Office 2013 SP1 Example
+isShowComments: false
+---
 ### An advanced Office 2013 SP1 installation with the PowerShell App Deployment Toolkit
 
 This example is provided as a script with the toolkit, in the “Examples” folder. This provides a number of benefits over the standard Microsoft Office Setup Bootstrapper:

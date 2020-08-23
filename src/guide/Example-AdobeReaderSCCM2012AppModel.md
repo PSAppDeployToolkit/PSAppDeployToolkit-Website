@@ -1,5 +1,7 @@
-# Adobe Reader - SCCM 2012 App Model
-
+---
+title: Adobe Reader - SCCM 2012 App Model
+isShowComments: false
+---
 ### Deploy the Adobe Reader installation using SCCM 2012 Application Model
 
   - Copy the installation files to a network location accessible by SCCM.

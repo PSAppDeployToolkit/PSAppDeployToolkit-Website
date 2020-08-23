@@ -1,5 +1,7 @@
-# Adove Reader - SCCM 2007/2012
-
+---
+title: Adove Reader - SCCM 2007/2012
+isShowComments: false
+---
 ### Deploy the Adobe Reader installation using SCCM 2007 or SCCM 2012 package
 
   - Copy the installation files to a network location accessible by SCCM.
