@@ -1,4 +1,5 @@
 ﻿---
+title: Show-WelcomePrompt
 editLink: false
 isShowComments: false
 external help file: PSAppDeployToolkit-help.xml
@@ -6,8 +7,6 @@ Module Name: PSAppDeployToolkit
 online version: http://psappdeploytoolkit.com
 schema: 2.0.0
 ---
-
-# Show-WelcomePrompt
 
 ## SYNOPSIS
 Called by Show-InstallationWelcome to prompt the user to optionally do the following:

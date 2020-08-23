@@ -1,4 +1,5 @@
 ﻿---
+title: Get-RunningProcesses
 editLink: false
 isShowComments: false
 external help file: PSAppDeployToolkit-help.xml
@@ -6,8 +7,6 @@ Module Name: PSAppDeployToolkit
 online version: http://psappdeploytoolkit.com
 schema: 2.0.0
 ---
-
-# Get-RunningProcesses
 
 ## SYNOPSIS
 Gets the processes that are running from a custom list of process objects and also adds a property called ProcessDescription.

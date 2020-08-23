@@ -1,4 +1,5 @@
 ﻿---
+title: Test-PowerPoint
 editLink: false
 isShowComments: false
 external help file: PSAppDeployToolkit-help.xml
@@ -6,8 +7,6 @@ Module Name: PSAppDeployToolkit
 online version: http://psappdeploytoolkit.com
 schema: 2.0.0
 ---
-
-# Test-PowerPoint
 
 ## SYNOPSIS
 Tests whether PowerPoint is running in either fullscreen slideshow mode or presentation mode.

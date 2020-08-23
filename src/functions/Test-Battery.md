@@ -1,4 +1,5 @@
 ﻿---
+title: Test-Battery
 editLink: false
 isShowComments: false
 external help file: PSAppDeployToolkit-help.xml
@@ -6,8 +7,6 @@ Module Name: PSAppDeployToolkit
 online version: http://psappdeploytoolkit.com
 schema: 2.0.0
 ---
-
-# Test-Battery
 
 ## SYNOPSIS
 Tests whether the local machine is running on AC power or not.

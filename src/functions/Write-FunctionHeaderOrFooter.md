@@ -1,4 +1,5 @@
 ﻿---
+title: Write-FunctionHeaderOrFooter
 editLink: false
 isShowComments: false
 external help file: PSAppDeployToolkit-help.xml
@@ -6,8 +7,6 @@ Module Name: PSAppDeployToolkit
 online version: http://psappdeploytoolkit.com
 schema: 2.0.0
 ---
-
-# Write-FunctionHeaderOrFooter
 
 ## SYNOPSIS
 Write the function header or footer to the log upon first entering or exiting a function.

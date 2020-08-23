@@ -1,4 +1,5 @@
 ﻿---
+title: Get-UniversalDate
 editLink: false
 isShowComments: false
 external help file: PSAppDeployToolkit-help.xml
@@ -6,8 +7,6 @@ Module Name: PSAppDeployToolkit
 online version: http://psappdeploytoolkit.com
 schema: 2.0.0
 ---
-
-# Get-UniversalDate
 
 ## SYNOPSIS
 Returns the date/time for the local culture in a universal sortable date time pattern.

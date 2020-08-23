@@ -1,4 +1,5 @@
 ﻿---
+title: Show-InstallationProgress
 editLink: false
 isShowComments: false
 external help file: PSAppDeployToolkit-help.xml
@@ -6,8 +7,6 @@ Module Name: PSAppDeployToolkit
 online version: http://psappdeploytoolkit.com
 schema: 2.0.0
 ---
-
-# Show-InstallationProgress
 
 ## SYNOPSIS
 Displays a progress dialog in a separate thread with an updateable custom message.

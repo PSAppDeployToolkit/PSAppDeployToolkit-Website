@@ -1,4 +1,5 @@
 ﻿---
+title: Test-IsMutexAvailable
 editLink: false
 isShowComments: false
 external help file: PSAppDeployToolkit-help.xml
@@ -6,8 +7,6 @@ Module Name: PSAppDeployToolkit
 online version: http://psappdeploytoolkit.com
 schema: 2.0.0
 ---
-
-# Test-IsMutexAvailable
 
 ## SYNOPSIS
 Wait, up to a timeout value, to check if current thread is able to acquire an exclusive lock on a system mutex.

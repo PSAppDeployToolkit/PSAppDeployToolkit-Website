@@ -1,4 +1,5 @@
 ﻿---
+title: Set-ActiveSetup
 editLink: false
 isShowComments: false
 external help file: PSAppDeployToolkit-help.xml
@@ -6,8 +7,6 @@ Module Name: PSAppDeployToolkit
 online version: http://psappdeploytoolkit.com
 schema: 2.0.0
 ---
-
-# Set-ActiveSetup
 
 ## SYNOPSIS
 Creates an Active Setup entry in the registry to execute a file for each user upon login.

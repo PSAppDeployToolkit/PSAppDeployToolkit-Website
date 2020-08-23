@@ -1,4 +1,5 @@
 ﻿---
+title: Get-MsiTableProperty
 editLink: false
 isShowComments: false
 external help file: PSAppDeployToolkit-help.xml
@@ -6,8 +7,6 @@ Module Name: PSAppDeployToolkit
 online version: http://psappdeploytoolkit.com
 schema: 2.0.0
 ---
-
-# Get-MsiTableProperty
 
 ## SYNOPSIS
 Get all of the properties from a Windows Installer database table or the Summary Information stream and return as a custom object.

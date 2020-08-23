@@ -1,4 +1,5 @@
 ﻿---
+title: Get-FreeDiskSpace
 editLink: false
 isShowComments: false
 external help file: PSAppDeployToolkit-help.xml
@@ -6,8 +7,6 @@ Module Name: PSAppDeployToolkit
 online version: http://psappdeploytoolkit.com
 schema: 2.0.0
 ---
-
-# Get-FreeDiskSpace
 
 ## SYNOPSIS
 Retrieves the free disk space in MB on a particular drive (defaults to system drive)

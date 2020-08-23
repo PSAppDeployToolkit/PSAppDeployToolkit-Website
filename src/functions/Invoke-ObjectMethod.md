@@ -1,4 +1,5 @@
 ﻿---
+title: Invoke-ObjectMethod
 editLink: false
 isShowComments: false
 external help file: PSAppDeployToolkit-help.xml
@@ -6,8 +7,6 @@ Module Name: PSAppDeployToolkit
 online version: http://psappdeploytoolkit.com
 schema: 2.0.0
 ---
-
-# Invoke-ObjectMethod
 
 ## SYNOPSIS
 Invoke method on any object.

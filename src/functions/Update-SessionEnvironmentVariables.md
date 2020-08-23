@@ -1,4 +1,5 @@
 ﻿---
+title: Update-SessionEnvironmentVariables
 editLink: false
 isShowComments: false
 external help file: PSAppDeployToolkit-help.xml
@@ -6,8 +7,6 @@ Module Name: PSAppDeployToolkit
 online version: http://psappdeploytoolkit.com
 schema: 2.0.0
 ---
-
-# Update-SessionEnvironmentVariables
 
 ## SYNOPSIS
 Updates the environment variables for the current PowerShell session with any environment variable changes that may have occurred during script execution.

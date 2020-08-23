@@ -1,4 +1,5 @@
 ﻿---
+title: Get-DeferHistory
 editLink: false
 isShowComments: false
 external help file: PSAppDeployToolkit-help.xml
@@ -6,8 +7,6 @@ Module Name: PSAppDeployToolkit
 online version: http://psappdeploytoolkit.com
 schema: 2.0.0
 ---
-
-# Get-DeferHistory
 
 ## SYNOPSIS
 Get the history of deferrals from the registry for the current application, if it exists.

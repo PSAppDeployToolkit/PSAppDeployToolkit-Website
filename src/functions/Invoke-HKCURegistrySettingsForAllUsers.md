@@ -1,4 +1,5 @@
 ﻿---
+title: Invoke-HKCURegistrySettingsForAllUsers
 editLink: false
 isShowComments: false
 external help file: PSAppDeployToolkit-help.xml
@@ -6,8 +7,6 @@ Module Name: PSAppDeployToolkit
 online version: http://psappdeploytoolkit.com
 schema: 2.0.0
 ---
-
-# Invoke-HKCURegistrySettingsForAllUsers
 
 ## SYNOPSIS
 Set current user registry settings for all current users and any new users in the future.

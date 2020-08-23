@@ -1,4 +1,5 @@
 ﻿---
+title: Set-RegistryKey
 editLink: false
 isShowComments: false
 external help file: PSAppDeployToolkit-help.xml
@@ -6,8 +7,6 @@ Module Name: PSAppDeployToolkit
 online version: http://psappdeploytoolkit.com
 schema: 2.0.0
 ---
-
-# Set-RegistryKey
 
 ## SYNOPSIS
 Creates a registry key name, value, and value data; it sets the same if it already exists.

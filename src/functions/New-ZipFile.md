@@ -1,4 +1,5 @@
 ﻿---
+title: New-ZipFile
 editLink: false
 isShowComments: false
 external help file: PSAppDeployToolkit-help.xml
@@ -6,8 +7,6 @@ Module Name: PSAppDeployToolkit
 online version: http://psappdeploytoolkit.com
 schema: 2.0.0
 ---
-
-# New-ZipFile
 
 ## SYNOPSIS
 Create a new zip archive or add content to an existing archive.

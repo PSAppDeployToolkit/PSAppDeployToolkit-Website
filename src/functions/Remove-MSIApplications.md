@@ -1,4 +1,5 @@
 ﻿---
+title: Remove-MSIApplications
 editLink: false
 isShowComments: false
 external help file: PSAppDeployToolkit-help.xml
@@ -6,8 +7,6 @@ Module Name: PSAppDeployToolkit
 online version: http://psappdeploytoolkit.com
 schema: 2.0.0
 ---
-
-# Remove-MSIApplications
 
 ## SYNOPSIS
 Removes all MSI applications matching the specified application name.

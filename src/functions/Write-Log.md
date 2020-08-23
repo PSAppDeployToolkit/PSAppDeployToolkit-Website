@@ -1,4 +1,5 @@
 ﻿---
+title: Write-Log
 editLink: false
 isShowComments: false
 external help file: PSAppDeployToolkit-help.xml
@@ -6,8 +7,6 @@ Module Name: PSAppDeployToolkit
 online version: http://psappdeploytoolkit.com
 schema: 2.0.0
 ---
-
-# Write-Log
 
 ## SYNOPSIS
 Write messages to a log file in CMTrace.exe compatible format or Legacy text file format.

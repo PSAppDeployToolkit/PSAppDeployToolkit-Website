@@ -1,4 +1,5 @@
 ﻿---
+title: Show-InstallationPrompt
 editLink: false
 isShowComments: false
 external help file: PSAppDeployToolkit-help.xml
@@ -6,8 +7,6 @@ Module Name: PSAppDeployToolkit
 online version: http://psappdeploytoolkit.com
 schema: 2.0.0
 ---
-
-# Show-InstallationPrompt
 
 ## SYNOPSIS
 Displays a custom installation prompt with the toolkit branding and optional buttons.

@@ -1,4 +1,5 @@
 ﻿---
+title: Disable-TerminalServerInstallMode
 editLink: false
 isShowComments: false
 external help file: PSAppDeployToolkit-help.xml
@@ -6,8 +7,6 @@ Module Name: PSAppDeployToolkit
 online version: http://psappdeploytoolkit.com
 schema: 2.0.0
 ---
-
-# Disable-TerminalServerInstallMode
 
 ## SYNOPSIS
 Changes to user install mode for Remote Desktop Session Host/Citrix servers.

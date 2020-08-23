@@ -1,4 +1,5 @@
 ﻿---
+title: Show-InstallationWelcome
 editLink: false
 isShowComments: false
 external help file: PSAppDeployToolkit-help.xml
@@ -6,8 +7,6 @@ Module Name: PSAppDeployToolkit
 online version: http://psappdeploytoolkit.com
 schema: 2.0.0
 ---
-
-# Show-InstallationWelcome
 
 ## SYNOPSIS
 Show a welcome dialog prompting the user with information about the installation and actions to be performed before the installation can begin.

@@ -1,4 +1,5 @@
 ﻿---
+title: Show-DialogBox
 editLink: false
 isShowComments: false
 external help file: PSAppDeployToolkit-help.xml
@@ -6,8 +7,6 @@ Module Name: PSAppDeployToolkit
 online version: http://psappdeploytoolkit.com
 schema: 2.0.0
 ---
-
-# Show-DialogBox
 
 ## SYNOPSIS
 Display a custom dialog box with optional title, buttons, icon and timeout.

@@ -1,4 +1,5 @@
 ﻿---
+title: Get-RegistryKey
 editLink: false
 isShowComments: false
 external help file: PSAppDeployToolkit-help.xml
@@ -6,8 +7,6 @@ Module Name: PSAppDeployToolkit
 online version: http://psappdeploytoolkit.com
 schema: 2.0.0
 ---
-
-# Get-RegistryKey
 
 ## SYNOPSIS
 Retrieves value names and value data for a specified registry key or optionally, a specific value.
