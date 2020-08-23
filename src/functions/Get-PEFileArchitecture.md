@@ -1,4 +1,6 @@
 ﻿---
+editLink: false
+isShowComments: false
 external help file: PSAppDeployToolkit-help.xml
 Module Name: PSAppDeployToolkit
 online version:
