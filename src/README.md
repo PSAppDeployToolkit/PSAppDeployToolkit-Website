@@ -1,8 +1,9 @@
 ---
 home: true
-heroImage: 
+heroImage: /psadt-banner.jpg
 heroText: null
 heroImageStyle: {
+  width: 100vw,
   maxHeight: '400px',
   display: block,
   margin: '6rem auto 1.5rem',
