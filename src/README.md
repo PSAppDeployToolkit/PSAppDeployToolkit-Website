@@ -3,14 +3,14 @@ home: true
 heroImage: /psadt-banner.jpg
 heroText: null
 heroImageStyle: {
-  width: 100vw,
-  maxHeight: '400px',
-  display: block,
-  margin: '6rem auto 1.5rem',
-  borderRadius: '0%',
-  boxShadow: '0 5px 18px rgba(0,0,0,0.2)'
+  width: '100vw',
+  position: 'relative',
+  left: '50%',
+  right: '50%',
+  margin-left: '-50vw',
+  margin-right: '-50vw',
 }
-tagline: PowerShell Application Deployment Toolkit
+tagline: Simple, Streamlined, Systematic Application Deployments
 actionText: Quick Start →
 actionLink: /guide/
 features:
