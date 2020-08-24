@@ -1,6 +1,7 @@
 ---
 home: true
-heroImage: /psadt-banner.jpg
+heroImage: 
+heroText: null
 heroImageStyle: {
   maxHeight: '400px',
   display: block,
