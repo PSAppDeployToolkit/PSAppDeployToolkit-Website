@@ -34,17 +34,6 @@ module.exports = {
   theme: 'reco',
   themeConfig: {
     noFoundPageByTencent: false,
-    codeTheme: 'tomorrow',
-    blogConfig: {
-      category: {
-        location: 1,     // The position occupied in the navigation bar menu, default to 2
-        text: 'Blog' // Text default to "Category"
-      },
-      tag: {
-        location: 2,     // The position occupied in the navigation bar menu, default to 3
-        text: 'Tag'      // Text default to "Tag"
-      }
-    },
     vssueConfig: {
       platform: 'github',
       owner: 'PSAppDeployToolkit',
@@ -61,6 +50,11 @@ module.exports = {
     lastUpdated: true,
     logo: '/logo.svg',
     nav: [
+      {
+        text: 'News',
+        link: '/categories/News/',
+        icon: 'reco-message'
+      },
       {
         text: 'Guide',
         link: '/guide/',
