@@ -5,7 +5,7 @@ heroImageStyle: {
   maxHeight: '400px',
   display: block,
   margin: '6rem auto 1.5rem',
-  borderRadius: '50%',
+  borderRadius: '0%',
   boxShadow: '0 5px 18px rgba(0,0,0,0.2)'
 }
 tagline: PowerShell Application Deployment Toolkit
