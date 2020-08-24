@@ -1,14 +1,13 @@
 ---
 home: true
-heroImage: /psadt-banner.jpg
-heroText: null
+heroImage: '/logo.svg'
+heroText: 'PS | APPDEPLOY | TOOLKIT'
 heroImageStyle: {
-  width: '100vw',
-  position: 'relative',
-  left: '50%',
-  right: '50%',
-  margin-left: '-50vw',
-  margin-right: '-50vw',
+  maxHeight: '300px',
+  display: block,
+  margin: '6rem auto 1.5rem',
+  borderRadius: '30%',
+  boxShadow: '0 5px 18px rgba(0,0,0,0.2)'
 }
 tagline: Simple, Streamlined, Systematic Application Deployments
 actionText: Quick Start →
