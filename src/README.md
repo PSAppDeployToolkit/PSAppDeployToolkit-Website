@@ -9,8 +9,8 @@ heroImageStyle: {
   borderRadius: '30%',
   boxShadow: '0 5px 18px rgba(0,0,0,0.2)'
 }
-tagline: Simple, Streamlined, Systematic Application Deployments
-actionText: Quick Start →
+tagline: Streamlined, Systematic, Supercharged Application Deployment
+actionText: Getting Started →
 actionLink: /guide/
 features:
 - title: Easy To Use
