@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>PSAppDeployToolkit</title>
+    <meta name="generator" content="VuePress 1.5.4">
+    
+    <meta name="description" content="PowerShell Application Deployment Toolkit">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="preload" href="/assets/css/0.styles.17449633.css" as="style"><link rel="preload" href="/assets/js/app.76ec5b08.js" as="script"><link rel="preload" href="/assets/js/3.67203597.js" as="script"><link rel="preload" href="/assets/js/1.07e6db8d.js" as="script"><link rel="preload" href="/assets/js/21.45d7a234.js" as="script"><link rel="prefetch" href="/assets/js/10.7c67b5e2.js"><link rel="prefetch" href="/assets/js/100.186f9874.js"><link rel="prefetch" href="/assets/js/101.dbddafb1.js"><link rel="prefetch" href="/assets/js/102.f81ada6d.js"><link rel="prefetch" href="/assets/js/103.514ecc6b.js"><link rel="prefetch" href="/assets/js/104.f238536d.js"><link rel="prefetch" href="/assets/js/105.c5c58140.js"><link rel="prefetch" href="/assets/js/11.ef9b1eb4.js"><link rel="prefetch" href="/assets/js/12.97e3eb84.js"><link rel="prefetch" href="/assets/js/13.09a3e5b0.js"><link rel="prefetch" href="/assets/js/14.29c7f05c.js"><link rel="prefetch" href="/assets/js/15.d00e491f.js"><link rel="prefetch" href="/assets/js/16.93fe84b0.js"><link rel="prefetch" href="/assets/js/17.7a19a614.js"><link rel="prefetch" href="/assets/js/18.a6fea143.js"><link rel="prefetch" href="/assets/js/19.f770717e.js"><link rel="prefetch" href="/assets/js/20.39224a6c.js"><link rel="prefetch" href="/assets/js/22.b58c1f14.js"><link rel="prefetch" href="/assets/js/23.ecce504d.js"><link rel="prefetch" href="/assets/js/24.acb3d5e2.js"><link rel="prefetch" href="/assets/js/25.4a8e882a.js"><link rel="prefetch" href="/assets/js/26.29bd9582.js"><link rel="prefetch" href="/assets/js/27.40e014ca.js"><link rel="prefetch" href="/assets/js/28.f1eb74c8.js"><link rel="prefetch" href="/assets/js/29.736dc68a.js"><link rel="prefetch" href="/assets/js/30.5ff23df2.js"><link rel="prefetch" href="/assets/js/31.970d61c5.js"><link rel="prefetch" href="/assets/js/32.5dc46b7d.js"><link rel="prefetch" href="/assets/js/33.31d0c779.js"><link rel="prefetch" href="/assets/js/34.a4e2a91d.js"><link rel="prefetch" href="/assets/js/35.aa077d99.js"><link rel="prefetch" href="/assets/js/36.853395be.js"><link rel="prefetch" href="/assets/js/37.939c04da.js"><link rel="prefetch" href="/assets/js/38.b2712d6d.js"><link rel="prefetch" href="/assets/js/39.0b4b5a3f.js"><link rel="prefetch" href="/assets/js/4.a8778b85.js"><link rel="prefetch" href="/assets/js/40.a48ceda9.js"><link rel="prefetch" href="/assets/js/41.a36c7160.js"><link rel="prefetch" href="/assets/js/42.29acda0a.js"><link rel="prefetch" href="/assets/js/43.5e371a43.js"><link rel="prefetch" href="/assets/js/44.efd24301.js"><link rel="prefetch" href="/assets/js/45.6ecd3af2.js"><link rel="prefetch" href="/assets/js/46.a8b45944.js"><link rel="prefetch" href="/assets/js/47.b9d94732.js"><link rel="prefetch" href="/assets/js/48.64abbc39.js"><link rel="prefetch" href="/assets/js/49.dd1449b3.js"><link rel="prefetch" href="/assets/js/5.ef12c763.js"><link rel="prefetch" href="/assets/js/50.12d8966b.js"><link rel="prefetch" href="/assets/js/51.9b7b7c48.js"><link rel="prefetch" href="/assets/js/52.35c36b6e.js"><link rel="prefetch" href="/assets/js/53.3ae45e3e.js"><link rel="prefetch" href="/assets/js/54.b389269d.js"><link rel="prefetch" href="/assets/js/55.c973922a.js"><link rel="prefetch" href="/assets/js/56.84c8986e.js"><link rel="prefetch" href="/assets/js/57.4dee9fe8.js"><link rel="prefetch" href="/assets/js/58.d021c251.js"><link rel="prefetch" href="/assets/js/59.383dd828.js"><link rel="prefetch" href="/assets/js/6.7beb1e4f.js"><link rel="prefetch" href="/assets/js/60.b419b09b.js"><link rel="prefetch" href="/assets/js/61.360bcf88.js"><link rel="prefetch" href="/assets/js/62.023e7cee.js"><link rel="prefetch" href="/assets/js/63.3c208080.js"><link rel="prefetch" href="/assets/js/64.84da3f70.js"><link rel="prefetch" href="/assets/js/65.8ae997bb.js"><link rel="prefetch" href="/assets/js/66.008611cb.js"><link rel="prefetch" href="/assets/js/67.2fd3bcbf.js"><link rel="prefetch" href="/assets/js/68.61a754e7.js"><link rel="prefetch" href="/assets/js/69.fc11c7bd.js"><link rel="prefetch" href="/assets/js/7.ac341be5.js"><link rel="prefetch" href="/assets/js/70.fb5a70c8.js"><link rel="prefetch" href="/assets/js/71.7592619e.js"><link rel="prefetch" href="/assets/js/72.ff790365.js"><link rel="prefetch" href="/assets/js/73.b2513e72.js"><link rel="prefetch" href="/assets/js/74.75507722.js"><link rel="prefetch" href="/assets/js/75.7f0c1b45.js"><link rel="prefetch" href="/assets/js/76.2ce5b1e3.js"><link rel="prefetch" href="/assets/js/77.c73e503f.js"><link rel="prefetch" href="/assets/js/78.96835b85.js"><link rel="prefetch" href="/assets/js/79.d9dbc11a.js"><link rel="prefetch" href="/assets/js/8.de587764.js"><link rel="prefetch" href="/assets/js/80.07a20131.js"><link rel="prefetch" href="/assets/js/81.078d90a9.js"><link rel="prefetch" href="/assets/js/82.554fde9b.js"><link rel="prefetch" href="/assets/js/83.72069bcb.js"><link rel="prefetch" href="/assets/js/84.bba9efa0.js"><link rel="prefetch" href="/assets/js/85.13328758.js"><link rel="prefetch" href="/assets/js/86.47137e2a.js"><link rel="prefetch" href="/assets/js/87.5b6f5b33.js"><link rel="prefetch" href="/assets/js/88.62adc9c6.js"><link rel="prefetch" href="/assets/js/89.1aa97700.js"><link rel="prefetch" href="/assets/js/9.742f0f18.js"><link rel="prefetch" href="/assets/js/90.5dbd1917.js"><link rel="prefetch" href="/assets/js/91.78109ea6.js"><link rel="prefetch" href="/assets/js/92.75dabccd.js"><link rel="prefetch" href="/assets/js/93.50d37a33.js"><link rel="prefetch" href="/assets/js/94.c9712360.js"><link rel="prefetch" href="/assets/js/95.85337f28.js"><link rel="prefetch" href="/assets/js/96.1f0ac2ec.js"><link rel="prefetch" href="/assets/js/97.142c76ca.js"><link rel="prefetch" href="/assets/js/98.18b3c5dc.js"><link rel="prefetch" href="/assets/js/99.2b27dd73.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.17449633.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar" data-v-dad8a512><div data-v-dad8a512><div id="loader-wrapper" class="loading-wrapper" data-v-d48f4d20 data-v-dad8a512 data-v-dad8a512><div class="loader-main" data-v-d48f4d20><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div></div> <!----> <!----></div> <div class="password-shadow password-wrapper-out" style="display:none;" data-v-64685f0e data-v-dad8a512 data-v-dad8a512><h3 class="title" style="display:none;" data-v-64685f0e data-v-64685f0e>PSAppDeployToolkit</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-64685f0e data-v-64685f0e><input type="password" value="" data-v-64685f0e> <span data-v-64685f0e>Konck! Knock!</span> <button data-v-64685f0e>OK</button></label> <div class="footer" style="display:none;" data-v-64685f0e data-v-64685f0e><span data-v-64685f0e><i class="iconfont reco-theme" data-v-64685f0e></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-64685f0e>vuePress-theme-reco</a></span> <span data-v-64685f0e><i class="iconfont reco-copyright" data-v-64685f0e></i> <a data-v-64685f0e><span data-v-64685f0e>PSAppDeployToolkit</span>
+            
+          <!---->
+          2020
+        </a></span></div></div> <div class="hide" data-v-dad8a512><header class="navbar" data-v-dad8a512><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.svg" alt="PSAppDeployToolkit" class="logo"> <span class="site-name">PSAppDeployToolkit</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/categories/News/" class="nav-link"><i class="iconfont reco-message"></i>
+  News
+</a></div><div class="nav-item"><a href="/guide/" class="nav-link"><i class="iconfont reco-document"></i>
+  Guide
+</a></div><div class="nav-item"><a href="/functions/" class="nav-link"><i class="iconfont reco-api"></i>
+  Functions
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-faq"></i>
+      About
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/about/about-psadt.html" class="nav-link"><i class="iconfont undefined"></i>
+  About PSADT
+</a></li><li class="dropdown-item"><!----> <a href="/about/screenshots.html" class="nav-link"><i class="iconfont undefined"></i>
+  Screenshots
+</a></li><li class="dropdown-item"><!----> <a href="/about/team.html" class="nav-link"><i class="iconfont undefined"></i>
+  Team
+</a></li><li class="dropdown-item"><!----> <a href="/about/donations.html" class="nav-link"><i class="iconfont undefined"></i>
+  Donations
+</a></li><li class="dropdown-item"><!----> <a href="/about/licensing.html" aria-current="page" class="nav-link router-link-exact-active router-link-active"><i class="iconfont undefined"></i>
+  Licensing
+</a></li></ul></div></div><div class="nav-item"><a href="https://discourse.psappdeploytoolkit.com/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-suggestion"></i>
+  Forum
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <a href="https://github.com/PSAppDeployToolkit/PSAppDeployToolkit" target="_blank" rel="noopener noreferrer" class="repo-link"><i class="iconfont reco-github"></i>
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask" data-v-dad8a512></div> <aside class="sidebar" data-v-dad8a512><div class="personal-info-wrapper" data-v-ca798c94 data-v-dad8a512><!----> <h3 class="name" data-v-ca798c94>
+    PSAppDeployToolkit
+  </h3> <div class="num" data-v-ca798c94><div data-v-ca798c94><h3 data-v-ca798c94>1</h3> <h6 data-v-ca798c94>Article</h6></div> <div data-v-ca798c94><h3 data-v-ca798c94>1</h3> <h6 data-v-ca798c94>Tag</h6></div></div> <hr data-v-ca798c94></div> <nav class="nav-links"><div class="nav-item"><a href="/categories/News/" class="nav-link"><i class="iconfont reco-message"></i>
+  News
+</a></div><div class="nav-item"><a href="/guide/" class="nav-link"><i class="iconfont reco-document"></i>
+  Guide
+</a></div><div class="nav-item"><a href="/functions/" class="nav-link"><i class="iconfont reco-api"></i>
+  Functions
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-faq"></i>
+      About
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/about/about-psadt.html" class="nav-link"><i class="iconfont undefined"></i>
+  About PSADT
+</a></li><li class="dropdown-item"><!----> <a href="/about/screenshots.html" class="nav-link"><i class="iconfont undefined"></i>
+  Screenshots
+</a></li><li class="dropdown-item"><!----> <a href="/about/team.html" class="nav-link"><i class="iconfont undefined"></i>
+  Team
+</a></li><li class="dropdown-item"><!----> <a href="/about/donations.html" class="nav-link"><i class="iconfont undefined"></i>
+  Donations
+</a></li><li class="dropdown-item"><!----> <a href="/about/licensing.html" aria-current="page" class="nav-link router-link-exact-active router-link-active"><i class="iconfont undefined"></i>
+  Licensing
+</a></li></ul></div></div><div class="nav-item"><a href="https://discourse.psappdeploytoolkit.com/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-suggestion"></i>
+  Forum
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <a href="https://github.com/PSAppDeployToolkit/PSAppDeployToolkit" target="_blank" rel="noopener noreferrer" class="repo-link"><i class="iconfont reco-github"></i>
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav> <!----> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-64685f0e data-v-dad8a512><h3 class="title" style="display:none;" data-v-64685f0e data-v-64685f0e></h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-64685f0e data-v-64685f0e><input type="password" value="" data-v-64685f0e> <span data-v-64685f0e>Konck! Knock!</span> <button data-v-64685f0e>OK</button></label> <div class="footer" style="display:none;" data-v-64685f0e data-v-64685f0e><span data-v-64685f0e><i class="iconfont reco-theme" data-v-64685f0e></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-64685f0e>vuePress-theme-reco</a></span> <span data-v-64685f0e><i class="iconfont reco-copyright" data-v-64685f0e></i> <a data-v-64685f0e><span data-v-64685f0e>PSAppDeployToolkit</span>
+            
+          <!---->
+          2020
+        </a></span></div></div> <div data-v-dad8a512><main class="page" style="padding-right:0;"><div class="page-title" style="display:none;"><h1></h1> <div data-v-3b7f5bdf><i class="iconfont reco-account" data-v-3b7f5bdf><span data-v-3b7f5bdf>PSAppDeployToolkit</span></i> <!----> <!----> <!----></div></div> <div class="theme-reco-content content__default" style="display:none;"><div class="language- extra-class"><pre><code>               GNU LESSER GENERAL PUBLIC LICENSE
+                   Version 3, 29 June 2007
+</code></pre></div><p>Copyright (C) 2007 Free Software Foundation, Inc. <a href="http://fsf.org/" target="_blank" rel="noopener noreferrer">http://fsf.org/<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>
+Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed.</p> <p>This version of the GNU Lesser General Public License incorporates
+the terms and conditions of version 3 of the GNU General Public
+License, supplemented by the additional permissions listed below.</p> <ol start="0"><li>Additional Definitions.</li></ol> <p>As used herein, &quot;this License&quot; refers to version 3 of the GNU Lesser
+General Public License, and the &quot;GNU GPL&quot; refers to version 3 of the GNU
+General Public License.</p> <p>&quot;The Library&quot; refers to a covered work governed by this License,
+other than an Application or a Combined Work as defined below.</p> <p>An &quot;Application&quot; is any work that makes use of an interface provided
+by the Library, but which is not otherwise based on the Library.
+Defining a subclass of a class defined by the Library is deemed a mode
+of using an interface provided by the Library.</p> <p>A &quot;Combined Work&quot; is a work produced by combining or linking an
+Application with the Library.  The particular version of the Library
+with which the Combined Work was made is also called the &quot;Linked
+Version&quot;.</p> <p>The &quot;Minimal Corresponding Source&quot; for a Combined Work means the
+Corresponding Source for the Combined Work, excluding any source code
+for portions of the Combined Work that, considered in isolation, are
+based on the Application, and not on the Linked Version.</p> <p>The &quot;Corresponding Application Code&quot; for a Combined Work means the
+object code and/or source code for the Application, including any data
+and utility programs needed for reproducing the Combined Work from the
+Application, but excluding the System Libraries of the Combined Work.</p> <ol><li>Exception to Section 3 of the GNU GPL.</li></ol> <p>You may convey a covered work under sections 3 and 4 of this License
+without being bound by section 3 of the GNU GPL.</p> <ol start="2"><li>Conveying Modified Versions.</li></ol> <p>If you modify a copy of the Library, and, in your modifications, a
+facility refers to a function or data to be supplied by an Application
+that uses the facility (other than as an argument passed when the
+facility is invoked), then you may convey a copy of the modified
+version:</p> <p>a) under this License, provided that you make a good faith effort to
+ensure that, in the event an Application does not supply the
+function or data, the facility still operates, and performs
+whatever part of its purpose remains meaningful, or</p> <p>b) under the GNU GPL, with none of the additional permissions of
+this License applicable to that copy.</p> <ol start="3"><li>Object Code Incorporating Material from Library Header Files.</li></ol> <p>The object code form of an Application may incorporate material from
+a header file that is part of the Library.  You may convey such object
+code under terms of your choice, provided that, if the incorporated
+material is not limited to numerical parameters, data structure
+layouts and accessors, or small macros, inline functions and templates
+(ten or fewer lines in length), you do both of the following:</p> <p>a) Give prominent notice with each copy of the object code that the
+Library is used in it and that the Library and its use are
+covered by this License.</p> <p>b) Accompany the object code with a copy of the GNU GPL and this license
+document.</p> <ol start="4"><li>Combined Works.</li></ol> <p>You may convey a Combined Work under terms of your choice that,
+taken together, effectively do not restrict modification of the
+portions of the Library contained in the Combined Work and reverse
+engineering for debugging such modifications, if you also do each of
+the following:</p> <p>a) Give prominent notice with each copy of the Combined Work that
+the Library is used in it and that the Library and its use are
+covered by this License.</p> <p>b) Accompany the Combined Work with a copy of the GNU GPL and this license
+document.</p> <p>c) For a Combined Work that displays copyright notices during
+execution, include the copyright notice for the Library among
+these notices, as well as a reference directing the user to the
+copies of the GNU GPL and this license document.</p> <p>d) Do one of the following:</p> <div class="language- extra-class"><pre><code>   0) Convey the Minimal Corresponding Source under the terms of this
+   License, and the Corresponding Application Code in a form
+   suitable for, and under terms that permit, the user to
+   recombine or relink the Application with a modified version of
+   the Linked Version to produce a modified Combined Work, in the
+   manner specified by section 6 of the GNU GPL for conveying
+   Corresponding Source.
+
+   1) Use a suitable shared library mechanism for linking with the
+   Library.  A suitable mechanism is one that (a) uses at run time
+   a copy of the Library already present on the user's computer
+   system, and (b) will operate properly with a modified version
+   of the Library that is interface-compatible with the Linked
+   Version.
+</code></pre></div><p>e) Provide Installation Information, but only if you would otherwise
+be required to provide such information under section 6 of the
+GNU GPL, and only to the extent that such information is
+necessary to install and execute a modified version of the
+Combined Work produced by recombining or relinking the
+Application with a modified version of the Linked Version. (If
+you use option 4d0, the Installation Information must accompany
+the Minimal Corresponding Source and Corresponding Application
+Code. If you use option 4d1, you must provide the Installation
+Information in the manner specified by section 6 of the GNU GPL
+for conveying Corresponding Source.)</p> <ol start="5"><li>Combined Libraries.</li></ol> <p>You may place library facilities that are a work based on the
+Library side by side in a single library together with other library
+facilities that are not Applications and are not covered by this
+License, and convey such a combined library under terms of your
+choice, if you do both of the following:</p> <p>a) Accompany the combined library with a copy of the same work based
+on the Library, uncombined with any other library facilities,
+conveyed under the terms of this License.</p> <p>b) Give prominent notice with the combined library that part of it
+is a work based on the Library, and explaining where to find the
+accompanying uncombined form of the same work.</p> <ol start="6"><li>Revised Versions of the GNU Lesser General Public License.</li></ol> <p>The Free Software Foundation may publish revised and/or new versions
+of the GNU Lesser General Public License from time to time. Such new
+versions will be similar in spirit to the present version, but may
+differ in detail to address new problems or concerns.</p> <p>Each version is given a distinguishing version number. If the
+Library as you received it specifies that a certain numbered version
+of the GNU Lesser General Public License &quot;or any later version&quot;
+applies to it, you have the option of following the terms and
+conditions either of that published version or of any later version
+published by the Free Software Foundation. If the Library as you
+received it does not specify a version number of the GNU Lesser
+General Public License, you may choose any version of the GNU Lesser
+General Public License ever published by the Free Software Foundation.</p> <p>If the Library as you received it specifies that a proxy can decide
+whether future versions of the GNU Lesser General Public License shall
+apply, that proxy's public statement of acceptance of any version is
+permanent authorization for you to choose that version for the
+Library.</p></div> <footer class="page-edit" style="display:none;"><div class="edit-link"><a href="https://github.com/PSAppDeployToolkit/PSAppDeployToolkit-Website/edit/master/src/about/licensing.md" target="_blank" rel="noopener noreferrer">Edit this page</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">8/26/2020, 6:49:27 PM</span></div></footer> <!----> <!----> <!----></main> <!----></div></div></div></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/assets/js/app.76ec5b08.js" defer></script><script src="/assets/js/3.67203597.js" defer></script><script src="/assets/js/1.07e6db8d.js" defer></script><script src="/assets/js/21.45d7a234.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Execute-MSI | PSAppDeployToolkit</title>
+    <meta name="generator" content="VuePress 1.5.4">
+    
+    <meta name="description" content="PowerShell Application Deployment Toolkit">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="preload" href="/assets/css/0.styles.17449633.css" as="style"><link rel="preload" href="/assets/js/app.76ec5b08.js" as="script"><link rel="preload" href="/assets/js/3.67203597.js" as="script"><link rel="preload" href="/assets/js/1.07e6db8d.js" as="script"><link rel="preload" href="/assets/js/32.5dc46b7d.js" as="script"><link rel="prefetch" href="/assets/js/10.7c67b5e2.js"><link rel="prefetch" href="/assets/js/100.186f9874.js"><link rel="prefetch" href="/assets/js/101.dbddafb1.js"><link rel="prefetch" href="/assets/js/102.f81ada6d.js"><link rel="prefetch" href="/assets/js/103.514ecc6b.js"><link rel="prefetch" href="/assets/js/104.f238536d.js"><link rel="prefetch" href="/assets/js/105.c5c58140.js"><link rel="prefetch" href="/assets/js/11.ef9b1eb4.js"><link rel="prefetch" href="/assets/js/12.97e3eb84.js"><link rel="prefetch" href="/assets/js/13.09a3e5b0.js"><link rel="prefetch" href="/assets/js/14.29c7f05c.js"><link rel="prefetch" href="/assets/js/15.d00e491f.js"><link rel="prefetch" href="/assets/js/16.93fe84b0.js"><link rel="prefetch" href="/assets/js/17.7a19a614.js"><link rel="prefetch" href="/assets/js/18.a6fea143.js"><link rel="prefetch" href="/assets/js/19.f770717e.js"><link rel="prefetch" href="/assets/js/20.39224a6c.js"><link rel="prefetch" href="/assets/js/21.45d7a234.js"><link rel="prefetch" href="/assets/js/22.b58c1f14.js"><link rel="prefetch" href="/assets/js/23.ecce504d.js"><link rel="prefetch" href="/assets/js/24.acb3d5e2.js"><link rel="prefetch" href="/assets/js/25.4a8e882a.js"><link rel="prefetch" href="/assets/js/26.29bd9582.js"><link rel="prefetch" href="/assets/js/27.40e014ca.js"><link rel="prefetch" href="/assets/js/28.f1eb74c8.js"><link rel="prefetch" href="/assets/js/29.736dc68a.js"><link rel="prefetch" href="/assets/js/30.5ff23df2.js"><link rel="prefetch" href="/assets/js/31.970d61c5.js"><link rel="prefetch" href="/assets/js/33.31d0c779.js"><link rel="prefetch" href="/assets/js/34.a4e2a91d.js"><link rel="prefetch" href="/assets/js/35.aa077d99.js"><link rel="prefetch" href="/assets/js/36.853395be.js"><link rel="prefetch" href="/assets/js/37.939c04da.js"><link rel="prefetch" href="/assets/js/38.b2712d6d.js"><link rel="prefetch" href="/assets/js/39.0b4b5a3f.js"><link rel="prefetch" href="/assets/js/4.a8778b85.js"><link rel="prefetch" href="/assets/js/40.a48ceda9.js"><link rel="prefetch" href="/assets/js/41.a36c7160.js"><link rel="prefetch" href="/assets/js/42.29acda0a.js"><link rel="prefetch" href="/assets/js/43.5e371a43.js"><link rel="prefetch" href="/assets/js/44.efd24301.js"><link rel="prefetch" href="/assets/js/45.6ecd3af2.js"><link rel="prefetch" href="/assets/js/46.a8b45944.js"><link rel="prefetch" href="/assets/js/47.b9d94732.js"><link rel="prefetch" href="/assets/js/48.64abbc39.js"><link rel="prefetch" href="/assets/js/49.dd1449b3.js"><link rel="prefetch" href="/assets/js/5.ef12c763.js"><link rel="prefetch" href="/assets/js/50.12d8966b.js"><link rel="prefetch" href="/assets/js/51.9b7b7c48.js"><link rel="prefetch" href="/assets/js/52.35c36b6e.js"><link rel="prefetch" href="/assets/js/53.3ae45e3e.js"><link rel="prefetch" href="/assets/js/54.b389269d.js"><link rel="prefetch" href="/assets/js/55.c973922a.js"><link rel="prefetch" href="/assets/js/56.84c8986e.js"><link rel="prefetch" href="/assets/js/57.4dee9fe8.js"><link rel="prefetch" href="/assets/js/58.d021c251.js"><link rel="prefetch" href="/assets/js/59.383dd828.js"><link rel="prefetch" href="/assets/js/6.7beb1e4f.js"><link rel="prefetch" href="/assets/js/60.b419b09b.js"><link rel="prefetch" href="/assets/js/61.360bcf88.js"><link rel="prefetch" href="/assets/js/62.023e7cee.js"><link rel="prefetch" href="/assets/js/63.3c208080.js"><link rel="prefetch" href="/assets/js/64.84da3f70.js"><link rel="prefetch" href="/assets/js/65.8ae997bb.js"><link rel="prefetch" href="/assets/js/66.008611cb.js"><link rel="prefetch" href="/assets/js/67.2fd3bcbf.js"><link rel="prefetch" href="/assets/js/68.61a754e7.js"><link rel="prefetch" href="/assets/js/69.fc11c7bd.js"><link rel="prefetch" href="/assets/js/7.ac341be5.js"><link rel="prefetch" href="/assets/js/70.fb5a70c8.js"><link rel="prefetch" href="/assets/js/71.7592619e.js"><link rel="prefetch" href="/assets/js/72.ff790365.js"><link rel="prefetch" href="/assets/js/73.b2513e72.js"><link rel="prefetch" href="/assets/js/74.75507722.js"><link rel="prefetch" href="/assets/js/75.7f0c1b45.js"><link rel="prefetch" href="/assets/js/76.2ce5b1e3.js"><link rel="prefetch" href="/assets/js/77.c73e503f.js"><link rel="prefetch" href="/assets/js/78.96835b85.js"><link rel="prefetch" href="/assets/js/79.d9dbc11a.js"><link rel="prefetch" href="/assets/js/8.de587764.js"><link rel="prefetch" href="/assets/js/80.07a20131.js"><link rel="prefetch" href="/assets/js/81.078d90a9.js"><link rel="prefetch" href="/assets/js/82.554fde9b.js"><link rel="prefetch" href="/assets/js/83.72069bcb.js"><link rel="prefetch" href="/assets/js/84.bba9efa0.js"><link rel="prefetch" href="/assets/js/85.13328758.js"><link rel="prefetch" href="/assets/js/86.47137e2a.js"><link rel="prefetch" href="/assets/js/87.5b6f5b33.js"><link rel="prefetch" href="/assets/js/88.62adc9c6.js"><link rel="prefetch" href="/assets/js/89.1aa97700.js"><link rel="prefetch" href="/assets/js/9.742f0f18.js"><link rel="prefetch" href="/assets/js/90.5dbd1917.js"><link rel="prefetch" href="/assets/js/91.78109ea6.js"><link rel="prefetch" href="/assets/js/92.75dabccd.js"><link rel="prefetch" href="/assets/js/93.50d37a33.js"><link rel="prefetch" href="/assets/js/94.c9712360.js"><link rel="prefetch" href="/assets/js/95.85337f28.js"><link rel="prefetch" href="/assets/js/96.1f0ac2ec.js"><link rel="prefetch" href="/assets/js/97.142c76ca.js"><link rel="prefetch" href="/assets/js/98.18b3c5dc.js"><link rel="prefetch" href="/assets/js/99.2b27dd73.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.17449633.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-dad8a512><div data-v-dad8a512><div id="loader-wrapper" class="loading-wrapper" data-v-d48f4d20 data-v-dad8a512 data-v-dad8a512><div class="loader-main" data-v-d48f4d20><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div></div> <!----> <!----></div> <div class="password-shadow password-wrapper-out" style="display:none;" data-v-64685f0e data-v-dad8a512 data-v-dad8a512><h3 class="title" style="display:none;" data-v-64685f0e data-v-64685f0e>PSAppDeployToolkit</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-64685f0e data-v-64685f0e><input type="password" value="" data-v-64685f0e> <span data-v-64685f0e>Konck! Knock!</span> <button data-v-64685f0e>OK</button></label> <div class="footer" style="display:none;" data-v-64685f0e data-v-64685f0e><span data-v-64685f0e><i class="iconfont reco-theme" data-v-64685f0e></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-64685f0e>vuePress-theme-reco</a></span> <span data-v-64685f0e><i class="iconfont reco-copyright" data-v-64685f0e></i> <a data-v-64685f0e><span data-v-64685f0e>PSAppDeployToolkit</span>
+            
+          <!---->
+          2020
+        </a></span></div></div> <div class="hide" data-v-dad8a512><header class="navbar" data-v-dad8a512><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.svg" alt="PSAppDeployToolkit" class="logo"> <span class="site-name">PSAppDeployToolkit</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/categories/News/" class="nav-link"><i class="iconfont reco-message"></i>
+  News
+</a></div><div class="nav-item"><a href="/guide/" class="nav-link"><i class="iconfont reco-document"></i>
+  Guide
+</a></div><div class="nav-item"><a href="/functions/" class="nav-link router-link-active"><i class="iconfont reco-api"></i>
+  Functions
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-faq"></i>
+      About
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/about/about-psadt.html" class="nav-link"><i class="iconfont undefined"></i>
+  About PSADT
+</a></li><li class="dropdown-item"><!----> <a href="/about/screenshots.html" class="nav-link"><i class="iconfont undefined"></i>
+  Screenshots
+</a></li><li class="dropdown-item"><!----> <a href="/about/team.html" class="nav-link"><i class="iconfont undefined"></i>
+  Team
+</a></li><li class="dropdown-item"><!----> <a href="/about/donations.html" class="nav-link"><i class="iconfont undefined"></i>
+  Donations
+</a></li><li class="dropdown-item"><!----> <a href="/about/licensing.html" class="nav-link"><i class="iconfont undefined"></i>
+  Licensing
+</a></li></ul></div></div><div class="nav-item"><a href="https://discourse.psappdeploytoolkit.com/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-suggestion"></i>
+  Forum
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <a href="https://github.com/PSAppDeployToolkit/PSAppDeployToolkit" target="_blank" rel="noopener noreferrer" class="repo-link"><i class="iconfont reco-github"></i>
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask" data-v-dad8a512></div> <aside class="sidebar" data-v-dad8a512><div class="personal-info-wrapper" data-v-ca798c94 data-v-dad8a512><!----> <h3 class="name" data-v-ca798c94>
+    PSAppDeployToolkit
+  </h3> <div class="num" data-v-ca798c94><div data-v-ca798c94><h3 data-v-ca798c94>1</h3> <h6 data-v-ca798c94>Article</h6></div> <div data-v-ca798c94><h3 data-v-ca798c94>1</h3> <h6 data-v-ca798c94>Tag</h6></div></div> <hr data-v-ca798c94></div> <nav class="nav-links"><div class="nav-item"><a href="/categories/News/" class="nav-link"><i class="iconfont reco-message"></i>
+  News
+</a></div><div class="nav-item"><a href="/guide/" class="nav-link"><i class="iconfont reco-document"></i>
+  Guide
+</a></div><div class="nav-item"><a href="/functions/" class="nav-link router-link-active"><i class="iconfont reco-api"></i>
+  Functions
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-faq"></i>
+      About
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/about/about-psadt.html" class="nav-link"><i class="iconfont undefined"></i>
+  About PSADT
+</a></li><li class="dropdown-item"><!----> <a href="/about/screenshots.html" class="nav-link"><i class="iconfont undefined"></i>
+  Screenshots
+</a></li><li class="dropdown-item"><!----> <a href="/about/team.html" class="nav-link"><i class="iconfont undefined"></i>
+  Team
+</a></li><li class="dropdown-item"><!----> <a href="/about/donations.html" class="nav-link"><i class="iconfont undefined"></i>
+  Donations
+</a></li><li class="dropdown-item"><!----> <a href="/about/licensing.html" class="nav-link"><i class="iconfont undefined"></i>
+  Licensing
+</a></li></ul></div></div><div class="nav-item"><a href="https://discourse.psappdeploytoolkit.com/" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-suggestion"></i>
+  Forum
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <a href="https://github.com/PSAppDeployToolkit/PSAppDeployToolkit" target="_blank" rel="noopener noreferrer" class="repo-link"><i class="iconfont reco-github"></i>
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav> <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Functions</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/functions/" aria-current="page" class="sidebar-link">Function Reference Help</a></li><li><a href="/functions/Block-AppExecution.html" class="sidebar-link">Block-AppExecution</a></li><li><a href="/functions/Close-InstallationProgress.html" class="sidebar-link">Close-InstallationProgress</a></li><li><a href="/functions/Convert-RegistryPath.html" class="sidebar-link">Convert-RegistryPath</a></li><li><a href="/functions/ConvertTo-NTAccountOrSID.html" class="sidebar-link">ConvertTo-NTAccountOrSID</a></li><li><a href="/functions/Copy-File.html" class="sidebar-link">Copy-File</a></li><li><a href="/functions/Disable-TerminalServerInstallMode.html" class="sidebar-link">Disable-TerminalServerInstallMode</a></li><li><a href="/functions/Enable-TerminalServerInstallMode.html" class="sidebar-link">Enable-TerminalServerInstallMode</a></li><li><a href="/functions/Execute-MSI.html" aria-current="page" class="active sidebar-link">Execute-MSI</a></li><li><a href="/functions/Execute-MSP.html" class="sidebar-link">Execute-MSP</a></li><li><a href="/functions/Execute-Process.html" class="sidebar-link">Execute-Process</a></li><li><a href="/functions/Execute-ProcessAsUser.html" class="sidebar-link">Execute-ProcessAsUser</a></li><li><a href="/functions/Exit-Script.html" class="sidebar-link">Exit-Script</a></li><li><a href="/functions/Get-DeferHistory.html" class="sidebar-link">Get-DeferHistory</a></li><li><a href="/functions/Get-FileVersion.html" class="sidebar-link">Get-FileVersion</a></li><li><a href="/functions/Get-FreeDiskSpace.html" class="sidebar-link">Get-FreeDiskSpace</a></li><li><a href="/functions/Get-HardwarePlatform.html" class="sidebar-link">Get-HardwarePlatform</a></li><li><a href="/functions/Get-IniValue.html" class="sidebar-link">Get-IniValue</a></li><li><a href="/functions/Get-InstalledApplication.html" class="sidebar-link">Get-InstalledApplication</a></li><li><a href="/functions/Get-LoggedOnUser.html" class="sidebar-link">Get-LoggedOnUser</a></li><li><a href="/functions/Get-MsiExitCodeMessage.html" class="sidebar-link">Get-MsiExitCodeMessage</a></li><li><a href="/functions/Get-MsiTableProperty.html" class="sidebar-link">Get-MsiTableProperty</a></li><li><a href="/functions/Get-ObjectProperty.html" class="sidebar-link">Get-ObjectProperty</a></li><li><a href="/functions/Get-PEFileArchitecture.html" class="sidebar-link">Get-PEFileArchitecture</a></li><li><a href="/functions/Get-PendingReboot.html" class="sidebar-link">Get-PendingReboot</a></li><li><a href="/functions/Get-RegistryKey.html" class="sidebar-link">Get-RegistryKey</a></li><li><a href="/functions/Get-RunningProcesses.html" class="sidebar-link">Get-RunningProcesses</a></li><li><a href="/functions/Get-ScheduledTask.html" class="sidebar-link">Get-ScheduledTask</a></li><li><a href="/functions/Get-ServiceStartMode.html" class="sidebar-link">Get-ServiceStartMode</a></li><li><a href="/functions/Get-UniversalDate.html" class="sidebar-link">Get-UniversalDate</a></li><li><a href="/functions/Get-UserProfiles.html" class="sidebar-link">Get-UserProfiles</a></li><li><a href="/functions/Get-WindowTitle.html" class="sidebar-link">Get-WindowTitle</a></li><li><a href="/functions/Install-MSUpdates.html" class="sidebar-link">Install-MSUpdates</a></li><li><a href="/functions/Install-SCCMSoftwareUpdates.html" class="sidebar-link">Install-SCCMSoftwareUpdates</a></li><li><a href="/functions/Invoke-HKCURegistrySettingsForAllUsers.html" class="sidebar-link">Invoke-HKCURegistrySettingsForAllUsers</a></li><li><a href="/functions/Invoke-ObjectMethod.html" class="sidebar-link">Invoke-ObjectMethod</a></li><li><a href="/functions/Invoke-RegisterOrUnregisterDLL.html" class="sidebar-link">Invoke-RegisterOrUnregisterDLL</a></li><li><a href="/functions/Invoke-SCCMTask.html" class="sidebar-link">Invoke-SCCMTask</a></li><li><a href="/functions/New-Folder.html" class="sidebar-link">New-Folder</a></li><li><a href="/functions/New-MsiTransform.html" class="sidebar-link">New-MsiTransform</a></li><li><a href="/functions/New-Shortcut.html" class="sidebar-link">New-Shortcut</a></li><li><a href="/functions/New-ZipFile.html" class="sidebar-link">New-ZipFile</a></li><li><a href="/functions/Remove-File.html" class="sidebar-link">Remove-File</a></li><li><a href="/functions/Remove-Folder.html" class="sidebar-link">Remove-Folder</a></li><li><a href="/functions/Remove-MSIApplications.html" class="sidebar-link">Remove-MSIApplications</a></li><li><a href="/functions/Remove-RegistryKey.html" class="sidebar-link">Remove-RegistryKey</a></li><li><a href="/functions/Resolve-Error.html" class="sidebar-link">Resolve-Error</a></li><li><a href="/functions/Send-Keys.html" class="sidebar-link">Send-Keys</a></li><li><a href="/functions/Set-ActiveSetup.html" class="sidebar-link">Set-ActiveSetup</a></li><li><a href="/functions/Set-DeferHistory.html" class="sidebar-link">Set-DeferHistory</a></li><li><a href="/functions/Set-IniValue.html" class="sidebar-link">Set-IniValue</a></li><li><a href="/functions/Set-MsiProperty.html" class="sidebar-link">Set-MsiProperty</a></li><li><a href="/functions/Set-PinnedApplication.html" class="sidebar-link">Set-PinnedApplication</a></li><li><a href="/functions/Set-RegistryKey.html" class="sidebar-link">Set-RegistryKey</a></li><li><a href="/functions/Set-ServiceStartMode.html" class="sidebar-link">Set-ServiceStartMode</a></li><li><a href="/functions/Show-BalloonTip.html" class="sidebar-link">Show-BalloonTip</a></li><li><a href="/functions/Show-DialogBox.html" class="sidebar-link">Show-DialogBox</a></li><li><a href="/functions/Show-InstallationProgress.html" class="sidebar-link">Show-InstallationProgress</a></li><li><a href="/functions/Show-InstallationPrompt.html" class="sidebar-link">Show-InstallationPrompt</a></li><li><a href="/functions/Show-InstallationRestartPrompt.html" class="sidebar-link">Show-InstallationRestartPrompt</a></li><li><a href="/functions/Show-InstallationWelcome.html" class="sidebar-link">Show-InstallationWelcome</a></li><li><a href="/functions/Show-WelcomePrompt.html" class="sidebar-link">Show-WelcomePrompt</a></li><li><a href="/functions/Start-ServiceAndDependencies.html" class="sidebar-link">Start-ServiceAndDependencies</a></li><li><a href="/functions/Stop-ServiceAndDependencies.html" class="sidebar-link">Stop-ServiceAndDependencies</a></li><li><a href="/functions/Test-Battery.html" class="sidebar-link">Test-Battery</a></li><li><a href="/functions/Test-IsMutexAvailable.html" class="sidebar-link">Test-IsMutexAvailable</a></li><li><a href="/functions/Test-MSUpdates.html" class="sidebar-link">Test-MSUpdates</a></li><li><a href="/functions/Test-NetworkConnection.html" class="sidebar-link">Test-NetworkConnection</a></li><li><a href="/functions/Test-PowerPoint.html" class="sidebar-link">Test-PowerPoint</a></li><li><a href="/functions/Test-RegistryValue.html" class="sidebar-link">Test-RegistryValue</a></li><li><a href="/functions/Test-ServiceExists.html" class="sidebar-link">Test-ServiceExists</a></li><li><a href="/functions/Unblock-AppExecution.html" class="sidebar-link">Unblock-AppExecution</a></li><li><a href="/functions/Update-Desktop.html" class="sidebar-link">Update-Desktop</a></li><li><a href="/functions/Update-GroupPolicy.html" class="sidebar-link">Update-GroupPolicy</a></li><li><a href="/functions/Update-SessionEnvironmentVariables.html" class="sidebar-link">Update-SessionEnvironmentVariables</a></li><li><a href="/functions/Write-FunctionHeaderOrFooter.html" class="sidebar-link">Write-FunctionHeaderOrFooter</a></li><li><a href="/functions/Write-Log.html" class="sidebar-link">Write-Log</a></li></ul></section></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-64685f0e data-v-dad8a512><h3 class="title" style="display:none;" data-v-64685f0e data-v-64685f0e>Execute-MSI</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-64685f0e data-v-64685f0e><input type="password" value="" data-v-64685f0e> <span data-v-64685f0e>Konck! Knock!</span> <button data-v-64685f0e>OK</button></label> <div class="footer" style="display:none;" data-v-64685f0e data-v-64685f0e><span data-v-64685f0e><i class="iconfont reco-theme" data-v-64685f0e></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-64685f0e>vuePress-theme-reco</a></span> <span data-v-64685f0e><i class="iconfont reco-copyright" data-v-64685f0e></i> <a data-v-64685f0e><span data-v-64685f0e>PSAppDeployToolkit</span>
+            
+          <!---->
+          2020
+        </a></span></div></div> <div data-v-dad8a512><main class="page"><div class="page-title" style="display:none;"><h1>Execute-MSI</h1> <div data-v-3b7f5bdf><i class="iconfont reco-account" data-v-3b7f5bdf><span data-v-3b7f5bdf>PSAppDeployToolkit</span></i> <!----> <!----> <!----></div></div> <div class="theme-reco-content content__default" style="display:none;"><h2 id="synopsis"><a href="#synopsis" class="header-anchor">#</a> SYNOPSIS</h2> <p>Executes msiexec.exe to perform the following actions for MSI &amp; MSP files and MSI product codes: install, uninstall, patch, repair, active setup.</p> <h2 id="syntax"><a href="#syntax" class="header-anchor">#</a> SYNTAX</h2> <div class="language- extra-class"><pre class="language-text"><code>Execute-MSI [[-Action] &lt;String&gt;] [-Path] &lt;String&gt; [[-Transform] &lt;String&gt;] [[-Parameters] &lt;String&gt;]
+ [[-AddParameters] &lt;String&gt;] [-SecureParameters] [[-Patch] &lt;String&gt;] [[-LoggingOptions] &lt;String&gt;]
+ [[-LogName] &lt;String&gt;] [[-WorkingDirectory] &lt;String&gt;] [-SkipMSIAlreadyInstalledCheck]
+ [-IncludeUpdatesAndHotfixes] [-PassThru] [[-ContinueOnError] &lt;Boolean&gt;] [&lt;CommonParameters&gt;]
+</code></pre></div><h2 id="description"><a href="#description" class="header-anchor">#</a> DESCRIPTION</h2> <p>Executes msiexec.exe to perform the following actions for MSI &amp; MSP files and MSI product codes: install, uninstall, patch, repair, active setup.
+If the -Action parameter is set to &quot;Install&quot; and the MSI is already installed, the function will exit.
+Sets default switches to be passed to msiexec based on the preferences in the XML configuration file.
+Automatically generates a log file name and creates a verbose log file for all msiexec operations.
+Expects the MSI or MSP file to be located in the &quot;Files&quot; sub directory of the App Deploy Toolkit.
+Expects transform files to be in the same directory as the MSI file.</p> <h2 id="examples"><a href="#examples" class="header-anchor">#</a> EXAMPLES</h2> <h3 id="example-1"><a href="#example-1" class="header-anchor">#</a> EXAMPLE 1</h3> <div class="language- extra-class"><pre class="language-text"><code>Execute-MSI -Action 'Install' -Path 'Adobe_FlashPlayer_11.2.202.233_x64_EN.msi'
+</code></pre></div><p>Installs an MSI</p> <h3 id="example-2"><a href="#example-2" class="header-anchor">#</a> EXAMPLE 2</h3> <div class="language- extra-class"><pre class="language-text"><code>Execute-MSI -Action 'Install' -Path 'Adobe_FlashPlayer_11.2.202.233_x64_EN.msi' -Transform 'Adobe_FlashPlayer_11.2.202.233_x64_EN_01.mst' -Parameters '/QN'
+</code></pre></div><p>Installs an MSI, applying a transform and overriding the default MSI toolkit parameters</p> <h3 id="example-3"><a href="#example-3" class="header-anchor">#</a> EXAMPLE 3</h3> <div class="language- extra-class"><pre class="language-text"><code>[psobject]$ExecuteMSIResult = Execute-MSI -Action 'Install' -Path 'Adobe_FlashPlayer_11.2.202.233_x64_EN.msi' -PassThru
+</code></pre></div><p>Installs an MSI and stores the result of the execution into a variable by using the -PassThru option</p> <h3 id="example-4"><a href="#example-4" class="header-anchor">#</a> EXAMPLE 4</h3> <div class="language- extra-class"><pre class="language-text"><code>Execute-MSI -Action 'Uninstall' -Path '{26923b43-4d38-484f-9b9e-de460746276c}'
+</code></pre></div><p>Uninstalls an MSI using a product code</p> <h3 id="example-5"><a href="#example-5" class="header-anchor">#</a> EXAMPLE 5</h3> <div class="language- extra-class"><pre class="language-text"><code>Execute-MSI -Action 'Patch' -Path 'Adobe_Reader_11.0.3_EN.msp'
+</code></pre></div><p>Installs an MSP</p> <h2 id="parameters"><a href="#parameters" class="header-anchor">#</a> PARAMETERS</h2> <h3 id="action"><a href="#action" class="header-anchor">#</a> -Action</h3> <p>The action to perform.
+Options: Install, Uninstall, Patch, Repair, ActiveSetup.</p> <div class="language-yaml extra-class"><pre class="language-yaml"><code><span class="token key atrule">Type</span><span class="token punctuation">:</span> String
+Parameter Sets<span class="token punctuation">:</span> (All)
+<span class="token key atrule">Aliases</span><span class="token punctuation">:</span>
+
+<span class="token key atrule">Required</span><span class="token punctuation">:</span> <span class="token boolean important">False</span>
+<span class="token key atrule">Position</span><span class="token punctuation">:</span> <span class="token number">1</span>
+Default value<span class="token punctuation">:</span> Install
+Accept pipeline input<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+Accept wildcard characters<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+</code></pre></div><h3 id="path"><a href="#path" class="header-anchor">#</a> -Path</h3> <p>The path to the MSI/MSP file or the product code of the installed MSI.</p> <div class="language-yaml extra-class"><pre class="language-yaml"><code><span class="token key atrule">Type</span><span class="token punctuation">:</span> String
+Parameter Sets<span class="token punctuation">:</span> (All)
+<span class="token key atrule">Aliases</span><span class="token punctuation">:</span> FilePath
+
+<span class="token key atrule">Required</span><span class="token punctuation">:</span> <span class="token boolean important">True</span>
+<span class="token key atrule">Position</span><span class="token punctuation">:</span> <span class="token number">2</span>
+Default value<span class="token punctuation">:</span> None
+Accept pipeline input<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+Accept wildcard characters<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+</code></pre></div><h3 id="transform"><a href="#transform" class="header-anchor">#</a> -Transform</h3> <p>The name of the transform file(s) to be applied to the MSI.
+The transform file is expected to be in the same directory as the MSI file.</p> <div class="language-yaml extra-class"><pre class="language-yaml"><code><span class="token key atrule">Type</span><span class="token punctuation">:</span> String
+Parameter Sets<span class="token punctuation">:</span> (All)
+<span class="token key atrule">Aliases</span><span class="token punctuation">:</span>
+
+<span class="token key atrule">Required</span><span class="token punctuation">:</span> <span class="token boolean important">False</span>
+<span class="token key atrule">Position</span><span class="token punctuation">:</span> <span class="token number">3</span>
+Default value<span class="token punctuation">:</span> None
+Accept pipeline input<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+Accept wildcard characters<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+</code></pre></div><h3 id="parameters-2"><a href="#parameters-2" class="header-anchor">#</a> -Parameters</h3> <p>Overrides the default parameters specified in the XML configuration file.
+Install default is: &quot;REBOOT=ReallySuppress /QB!&quot;.
+Uninstall default is: &quot;REBOOT=ReallySuppress /QN&quot;.</p> <div class="language-yaml extra-class"><pre class="language-yaml"><code><span class="token key atrule">Type</span><span class="token punctuation">:</span> String
+Parameter Sets<span class="token punctuation">:</span> (All)
+<span class="token key atrule">Aliases</span><span class="token punctuation">:</span> Arguments
+
+<span class="token key atrule">Required</span><span class="token punctuation">:</span> <span class="token boolean important">False</span>
+<span class="token key atrule">Position</span><span class="token punctuation">:</span> <span class="token number">4</span>
+Default value<span class="token punctuation">:</span> None
+Accept pipeline input<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+Accept wildcard characters<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+</code></pre></div><h3 id="addparameters"><a href="#addparameters" class="header-anchor">#</a> -AddParameters</h3> <p>Adds to the default parameters specified in the XML configuration file.
+Install default is: &quot;REBOOT=ReallySuppress /QB!&quot;.
+Uninstall default is: &quot;REBOOT=ReallySuppress /QN&quot;.</p> <div class="language-yaml extra-class"><pre class="language-yaml"><code><span class="token key atrule">Type</span><span class="token punctuation">:</span> String
+Parameter Sets<span class="token punctuation">:</span> (All)
+<span class="token key atrule">Aliases</span><span class="token punctuation">:</span>
+
+<span class="token key atrule">Required</span><span class="token punctuation">:</span> <span class="token boolean important">False</span>
+<span class="token key atrule">Position</span><span class="token punctuation">:</span> <span class="token number">5</span>
+Default value<span class="token punctuation">:</span> None
+Accept pipeline input<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+Accept wildcard characters<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+</code></pre></div><h3 id="secureparameters"><a href="#secureparameters" class="header-anchor">#</a> -SecureParameters</h3> <p>Hides all parameters passed to the MSI or MSP file from the toolkit Log file.</p> <div class="language-yaml extra-class"><pre class="language-yaml"><code><span class="token key atrule">Type</span><span class="token punctuation">:</span> SwitchParameter
+Parameter Sets<span class="token punctuation">:</span> (All)
+<span class="token key atrule">Aliases</span><span class="token punctuation">:</span>
+
+<span class="token key atrule">Required</span><span class="token punctuation">:</span> <span class="token boolean important">False</span>
+<span class="token key atrule">Position</span><span class="token punctuation">:</span> Named
+Default value<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+Accept pipeline input<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+Accept wildcard characters<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+</code></pre></div><h3 id="patch"><a href="#patch" class="header-anchor">#</a> -Patch</h3> <p>The name of the patch (msp) file(s) to be applied to the MSI for use with the &quot;Install&quot; action.
+The patch file is expected to be in the same directory as the MSI file.</p> <div class="language-yaml extra-class"><pre class="language-yaml"><code><span class="token key atrule">Type</span><span class="token punctuation">:</span> String
+Parameter Sets<span class="token punctuation">:</span> (All)
+<span class="token key atrule">Aliases</span><span class="token punctuation">:</span>
+
+<span class="token key atrule">Required</span><span class="token punctuation">:</span> <span class="token boolean important">False</span>
+<span class="token key atrule">Position</span><span class="token punctuation">:</span> <span class="token number">6</span>
+Default value<span class="token punctuation">:</span> None
+Accept pipeline input<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+Accept wildcard characters<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+</code></pre></div><h3 id="loggingoptions"><a href="#loggingoptions" class="header-anchor">#</a> -LoggingOptions</h3> <p>Overrides the default logging options specified in the XML configuration file.
+Default options are: &quot;/L*v&quot;.</p> <div class="language-yaml extra-class"><pre class="language-yaml"><code><span class="token key atrule">Type</span><span class="token punctuation">:</span> String
+Parameter Sets<span class="token punctuation">:</span> (All)
+<span class="token key atrule">Aliases</span><span class="token punctuation">:</span>
+
+<span class="token key atrule">Required</span><span class="token punctuation">:</span> <span class="token boolean important">False</span>
+<span class="token key atrule">Position</span><span class="token punctuation">:</span> <span class="token number">7</span>
+Default value<span class="token punctuation">:</span> None
+Accept pipeline input<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+Accept wildcard characters<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+</code></pre></div><h3 id="logname"><a href="#logname" class="header-anchor">#</a> -LogName</h3> <p>Overrides the default log file name.
+The default log file name is generated from the MSI file name.
+If LogName does not end in .log, it will be automatically appended.
+For uninstallations, by default the product code is resolved to the DisplayName and version of the application.</p> <div class="language-yaml extra-class"><pre class="language-yaml"><code><span class="token key atrule">Type</span><span class="token punctuation">:</span> String
+Parameter Sets<span class="token punctuation">:</span> (All)
+<span class="token key atrule">Aliases</span><span class="token punctuation">:</span>
+
+<span class="token key atrule">Required</span><span class="token punctuation">:</span> <span class="token boolean important">False</span>
+<span class="token key atrule">Position</span><span class="token punctuation">:</span> <span class="token number">8</span>
+Default value<span class="token punctuation">:</span> None
+Accept pipeline input<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+Accept wildcard characters<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+</code></pre></div><h3 id="workingdirectory"><a href="#workingdirectory" class="header-anchor">#</a> -WorkingDirectory</h3> <p>Overrides the working directory.
+The working directory is set to the location of the MSI file.</p> <div class="language-yaml extra-class"><pre class="language-yaml"><code><span class="token key atrule">Type</span><span class="token punctuation">:</span> String
+Parameter Sets<span class="token punctuation">:</span> (All)
+<span class="token key atrule">Aliases</span><span class="token punctuation">:</span>
+
+<span class="token key atrule">Required</span><span class="token punctuation">:</span> <span class="token boolean important">False</span>
+<span class="token key atrule">Position</span><span class="token punctuation">:</span> <span class="token number">9</span>
+Default value<span class="token punctuation">:</span> None
+Accept pipeline input<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+Accept wildcard characters<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+</code></pre></div><h3 id="skipmsialreadyinstalledcheck"><a href="#skipmsialreadyinstalledcheck" class="header-anchor">#</a> -SkipMSIAlreadyInstalledCheck</h3> <p>Skips the check to determine if the MSI is already installed on the system.
+Default is: $false.</p> <div class="language-yaml extra-class"><pre class="language-yaml"><code><span class="token key atrule">Type</span><span class="token punctuation">:</span> SwitchParameter
+Parameter Sets<span class="token punctuation">:</span> (All)
+<span class="token key atrule">Aliases</span><span class="token punctuation">:</span>
+
+<span class="token key atrule">Required</span><span class="token punctuation">:</span> <span class="token boolean important">False</span>
+<span class="token key atrule">Position</span><span class="token punctuation">:</span> Named
+Default value<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+Accept pipeline input<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+Accept wildcard characters<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+</code></pre></div><h3 id="includeupdatesandhotfixes"><a href="#includeupdatesandhotfixes" class="header-anchor">#</a> -IncludeUpdatesAndHotfixes</h3> <p>Include matches against updates and hotfixes in results.</p> <div class="language-yaml extra-class"><pre class="language-yaml"><code><span class="token key atrule">Type</span><span class="token punctuation">:</span> SwitchParameter
+Parameter Sets<span class="token punctuation">:</span> (All)
+<span class="token key atrule">Aliases</span><span class="token punctuation">:</span>
+
+<span class="token key atrule">Required</span><span class="token punctuation">:</span> <span class="token boolean important">False</span>
+<span class="token key atrule">Position</span><span class="token punctuation">:</span> Named
+Default value<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+Accept pipeline input<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+Accept wildcard characters<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+</code></pre></div><h3 id="passthru"><a href="#passthru" class="header-anchor">#</a> -PassThru</h3> <p>Returns ExitCode, STDOut, and STDErr output from the process.</p> <div class="language-yaml extra-class"><pre class="language-yaml"><code><span class="token key atrule">Type</span><span class="token punctuation">:</span> SwitchParameter
+Parameter Sets<span class="token punctuation">:</span> (All)
+<span class="token key atrule">Aliases</span><span class="token punctuation">:</span>
+
+<span class="token key atrule">Required</span><span class="token punctuation">:</span> <span class="token boolean important">False</span>
+<span class="token key atrule">Position</span><span class="token punctuation">:</span> Named
+Default value<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+Accept pipeline input<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+Accept wildcard characters<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+</code></pre></div><h3 id="continueonerror"><a href="#continueonerror" class="header-anchor">#</a> -ContinueOnError</h3> <p>Continue if an exit code is returned by msiexec that is not recognized by the App Deploy Toolkit.
+Default is: $false.</p> <div class="language-yaml extra-class"><pre class="language-yaml"><code><span class="token key atrule">Type</span><span class="token punctuation">:</span> Boolean
+Parameter Sets<span class="token punctuation">:</span> (All)
+<span class="token key atrule">Aliases</span><span class="token punctuation">:</span>
+
+<span class="token key atrule">Required</span><span class="token punctuation">:</span> <span class="token boolean important">False</span>
+<span class="token key atrule">Position</span><span class="token punctuation">:</span> <span class="token number">10</span>
+Default value<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+Accept pipeline input<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+Accept wildcard characters<span class="token punctuation">:</span> <span class="token boolean important">False</span>
+</code></pre></div><h3 id="commonparameters"><a href="#commonparameters" class="header-anchor">#</a> CommonParameters</h3> <p>This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see <a href="http://go.microsoft.com/fwlink/?LinkID=113216" target="_blank" rel="noopener noreferrer">about_CommonParameters<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>.</p> <h2 id="inputs"><a href="#inputs" class="header-anchor">#</a> INPUTS</h2> <h2 id="outputs"><a href="#outputs" class="header-anchor">#</a> OUTPUTS</h2> <h2 id="notes"><a href="#notes" class="header-anchor">#</a> NOTES</h2> <h2 id="related-links"><a href="#related-links" class="header-anchor">#</a> RELATED LINKS</h2> <p><a href="http://psappdeploytoolkit.com" target="_blank" rel="noopener noreferrer">http://psappdeploytoolkit.com<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></div> <footer class="page-edit" style="display:none;"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">8/26/2020, 6:49:27 PM</span></div></footer> <!----> <!----> <!----></main> <!----></div></div></div></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/assets/js/app.76ec5b08.js" defer></script><script src="/assets/js/3.67203597.js" defer></script><script src="/assets/js/1.07e6db8d.js" defer></script><script src="/assets/js/32.5dc46b7d.js" defer></script>
+  </body>
+</html>
