@@ -135,6 +135,11 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## OUTPUTS
 
+For every detected matching Application the Function puts out a custom Object containing the following Properties:
+
+	DisplayName, DisplayVersion, InstallDate, Publisher, Is64BitApplication, ProductCode, InstallLocation, UninstallSubkey, UninstallString, InstallSource.
+
+
 ## NOTES
 
 ## RELATED LINKS
